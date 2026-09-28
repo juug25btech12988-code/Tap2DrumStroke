@@ -1,1 +1,2 @@
 # Tap2DrumStroke
+This script uses the librosa module to replace taps with a drum stroke. It takes the intensity of the tap into account as well when replacing the tap. It even uses matplotlib to show a waveform graph. A red vertical line shows the time frame at which a tap was detected by the onset.onset_detect function. the tap would then be replaced depending on the frequency of the tap. It also features background noise removal.
